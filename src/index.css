@@ -47,9 +47,16 @@ section {
     padding: 3px;
     align-items: center;
 }
+.productCard {
+  height: auto;
+  width: 25rem;
+}
 
 .products img {
     object-fit: contain;
+    width: 25rem;
+    height: 10rem;
+    padding: 10px;
 }
 
 .product-content {
@@ -230,13 +237,21 @@ main h1 {
 
 @media screen and (max-width: 800px) {
   .toDoList {
-    margin-top: 28%;
+    margin-top: 33%;
 }
   .productContent{
-    margin-top: 28%;
+    margin-top: 33%;
   }
   .productContent h1 {
   font-size: 88px;
 }
+.productCard {
+  width: 22rem;
+}
+
+.products img {
+    width: 22rem;
+}
 
 }
+

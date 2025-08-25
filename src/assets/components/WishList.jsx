@@ -59,16 +59,11 @@ const WishList = () => {
           {cartProduct.map((product) => {
             return (
               <div key={product.id}>
-                <Card style={{ width: "25rem", height: "auto" }}>
+                <Card className="productCard">
                   <Card.Img
                     variant="top"
                     src={product.image}
-                    style={{
-                      width: "25rem",
-                      height: "10rem",
-                      padding: "10px",
-                      alignItems: "div ",
-                    }}
+                    className="productCardImage"
                   />
                   <Card.Body className="product-content">
                     <Card.Title className="productTitle">
