@@ -27,7 +27,7 @@ let schema = Yup.object().shape({
 const SignUp = () => {
   let paperStyle = {
     width: 400,
-    margin: "77px auto",
+    margin: "88px auto",
     padding: "20px",
     display: "grid",
     gap: "17px",

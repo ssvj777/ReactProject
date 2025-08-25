@@ -46,7 +46,6 @@ section {
     justify-content: space-around;
     padding: 3px;
     align-items: center;
-
 }
 
 .products img {
@@ -225,4 +224,19 @@ main h1 {
 /* WishList Session */
 .wishList{
   margin-top: 200px;
+}
+
+/* Mobile view */
+
+@media screen and (max-width: 800px) {
+  .toDoList {
+    margin-top: 28%;
+}
+  .productContent{
+    margin-top: 28%;
+  }
+  .productContent h1 {
+  font-size: 88px;
+}
+
 }

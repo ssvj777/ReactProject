@@ -8,7 +8,7 @@ import Loading from "./Loading";
 const UpdateProduct = () => {
   let paperStyle = {
     width: 350,
-    margin: "100px auto",
+    margin: "124px auto",
     padding: "20px",
   };
 

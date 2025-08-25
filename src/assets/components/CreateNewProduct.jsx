@@ -5,7 +5,7 @@ import { Button, Grid, Paper, TextField, Typography } from "@mui/material";
 const CreateNewProduct = () => {
   let paperStyle = {
     width: 350,
-    margin: "100px auto",
+    margin: "124px auto",
     padding: "20px",
   };
 
