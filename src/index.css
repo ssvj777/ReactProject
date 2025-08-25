@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarComponent{
+    padding: 13px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color:whitesmoke;
+}
+
+.navbarContent{
+    padding-left: 50px;
+}
+section h1 {
+    text-align: center;
+    padding-top: 22px;
+    color: rgb(70, 69, 69);
+}
+section {
+    border: 2px solid gray;
+    margin: 0 22px 0 22px;
+    border-radius: 13px;
+}
+
+
+/* Product Session */
+.productList {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.loading {
+  margin-top: 147px;
+  text-align: center;
+}
+.products {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3px;
+    align-items: center;
+
+}
+
+.products img {
+    object-fit: contain;
+}
+
+.product-content {
+    padding: 10px;
+    height: auto;
+    
+}
+
+.productTitle{
+  text-align: center;
+}
+
+.productButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* todo List contents */
+.toDoList {
+    justify-content: center;
+    display: grid;
+    margin-top: 10%;
+}
+
+.toDoList .inputBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
+}
+.inputBox input {
+  background-color: rgba(0, 0, 0, 0.795);
+  width:  90%;
+  padding: 7px 0 7px 28px;
+  outline: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  color: green;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.inputBox .save, .add{
+  color: rgb(40, 173, 40);
+  outline: none;
+  margin-left: 3px;
+  cursor: pointer;
+  size: 300px;
+}
+
+.inputBox .save:hover , .add:hover {
+  color: green;
+}
+
+.toDoList ul{
+  list-style: none;
+  margin: 7px 22px 7px 22px ;
+}
+
+.toDoList ul .listItem label {
+    margin: 5px;
+    font-size: 17px;
+}
+
+ul .listItem .delete {
+  color: rgb(233, 52, 52);
+  outline: none;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+ul .listItem .delete:hover {
+  color: red;
+}
+
+ul .listItem .edit{
+  color: rgb(202, 202, 28);
+  outline: none;
+  margin-left: 5px;
+   margin-bottom: 2px;
+  cursor: pointer;
+}
+
+ul .listItem .edit:hover {
+  color: yellow;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+main .btn {
+  display: flex;
+  margin: 20px;
+}
+
+main h1 {
+  padding: 7px;
+  border-radius: 5px;
+}
+
+
+.content {
+  margin-top: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  margin-bottom: 17px;
+  text-align: center;
+  padding: 7px 22px 7px 22px;
+}
+
+.content .btn {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  font-size: 22px;
+}
+
+.profile {
+   width: 50px;                /* Same width */
+  height: 50px;               /* Same height */
+  background-color: #4a90e2;  /* Circle color */
+  color: white;               /* Text color */
+  font-size: 28px;             /* Letter size */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;         /* Perfect circle */
+  text-transform: uppercase;  /* Uppercase letter */
+  line-height: 50px;          /* Match height for perfect vertical centering */
+  overflow: hidden; 
+  padding: 1px 22px 1px 22px;
+  margin: 0 22px 0 28px;
+}
+
+
+.footer-content {
+  width: 100%;
+  background-color: mediumblue;
+  color: aliceblue;
+  padding: 5px 22px 3px 22px;
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  justify-content: right;
+}
+
+/* Create & Update Session */
+.productContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.productContent h1 {
+  font-size: 111px;
+}
+
+/* WishList Session */
+.wishList{
+  margin-top: 200px;
+}
